@@ -23,6 +23,9 @@
     header a {font-size: 16px; color: var(--primary-color);}
     header a:focus {color: #000;}
 
+    main .bar {height: 20px; background: #502712;}
+    main .hero-1 {background: url(../images/caturra-coffee-hero-image.webp) no-repeat center / cover; min-height: 454px; width: auto;}
+    
 }
 
 @media screen and (max-width: 1200px) {

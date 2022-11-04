@@ -1,5 +1,8 @@
+:root {--primary-bg-color: #502712; --secondary-bg-color: #fff; --accent-color: #000;}
 
 @media all {
+
+    body {font: 400 18/1.3 'PT Sans', sans-serif;}
 
 }
 
@@ -12,7 +15,7 @@
 }
 
 @media screen and (max-width: 1070px) {
-    
+
 }
 
 @media screen and (max-width: 992px) {

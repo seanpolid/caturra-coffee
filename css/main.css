@@ -95,7 +95,8 @@
     .menu .container-xl .menu-items:last-child {margin-top: 9px;}
     .menu .container-xl .menu-items:last-child li {margin-top: 14px;}
 
-    #chimex {width: 100%;}
+    #chemex {background-size: contain; width: 100%;}
+    .chemex-container {padding: 0 15px;}
 
 }
 

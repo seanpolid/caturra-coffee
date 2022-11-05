@@ -49,11 +49,12 @@
     footer {padding: 50px 0 35px; background: #502712; margin-top: 59px; color: var(--secondary-color); font-size: 16px;}
     footer p {margin: 0;}
     footer .hours {margin-top: 16px;}
-    .icon {width: 50px; min-height: 52px; display: block; float: left;}
+    .icon {width: 50px; min-height: 52px; display: block; float: left; margin-right: 15px}
     #instagram-icon {background: url(../images/social-media-icons.webp) no-repeat;}
-    #twitter-icon {background: url(../images/social-media-icons.webp) no-repeat;}
-    #facebook-icon {background: url(../images/social-media-icons.webp) no-repeat;}
+    #twitter-icon {background: url(../images/social-media-icons.webp) no-repeat -65px;}
+    #facebook-icon {background: url(../images/social-media-icons.webp) no-repeat -130px;}
     .clear {clear: left;}
+    footer p[role*="contentinfo"] {margin-top: 15px;}
 }
 
 @media screen and (max-width: 1200px) {

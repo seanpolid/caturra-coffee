@@ -86,10 +86,17 @@
     header .col-12 {width: 67%;}
     #logo {height: 75px; width: 193px; margin: 20px auto 0;}
 
+}
+
+@media screen and (max-width: 768px) {
+    
     .views .col-md-4:nth-child(n + 2) {margin-top: 30px;}
 
     .menu .container-xl .menu-items:last-child {margin-top: 9px;}
     .menu .container-xl .menu-items:last-child li {margin-top: 14px;}
+
+    #chimex {width: 100%;}
+
 }
 
 @media screen and (max-width: 576px) {

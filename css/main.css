@@ -10,11 +10,12 @@
 @media screen {
 
     a:focus {outline: 2px solid var(--primary-color); outline-offset: 3px;}
+    .views a, footer .icon {outline-color: var(--secondary-color); }
     .image-descr {font-size: 0; width: 0; height: 0;}
 
     /* Masthead */
-    #jump {display: none; position: absolute; top: 10px; left: 10px;}
-    #jump:focus {color: #000; }
+    #jump {position: absolute; top: 10px; left: 10px; font-size: 0;}
+    #jump:focus {color: #000; display: block; font-size: inherit;}
     #logo {height: 75px; width: 193px; display: block; margin-left: 1px;}
     header form {display: none;}
     header {padding: 30px 0;}

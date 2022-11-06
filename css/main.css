@@ -45,7 +45,7 @@
     .menu-items li {margin-top: 15px;}
     .menu .container-xl {border-bottom: 1px solid var(--primary-color); padding-bottom: 60px;}
 
-    #chemex {background: url(../images/chemex-top-rated-brewing-method.webp) no-repeat center / cover; min-height: 461px; max-width: 709px; display: block; margin: 0 auto;}
+    #chemex img {min-height: 461px; max-width: 709px; display: block; margin: 0 auto;}
 
     footer {padding: 50px 0 35px; background: #502712; margin-top: 59px; color: var(--secondary-color); font-size: 16px;}
     footer p {margin: 0;}
@@ -95,15 +95,14 @@
     .menu .container-xl .menu-items:last-child {margin-top: 9px;}
     .menu .container-xl .menu-items:last-child li {margin-top: 14px;}
 
-    #chemex {background-size: contain; width: 100%;}
-    .chemex-container {padding: 0 15px;}
+    #chemex img {min-height: auto; width: 100%;}
+    #chemex {padding: 0 15px; display: block;}
 
 }
 
 @media screen and (max-width: 576px) {
 
-    .menu {margin-bottom: -2px;}
-    footer {margin-top: -2px; padding-bottom: 50px;}
+    footer {padding-bottom: 50px;}
     footer .row .col-sm-6:nth-child(n + 2) {margin-top: 30px;}
 }
 

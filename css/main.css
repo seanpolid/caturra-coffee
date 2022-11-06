@@ -10,7 +10,8 @@
 @media screen {
 
     a:focus {outline: 2px solid var(--primary-color); outline-offset: 3px;}
-    
+    .image-descr {font-size: 0; width: 0; height: 0;}
+
     /* Masthead */
     #jump {display: none; position: absolute; top: 10px; left: 10px;}
     #jump:focus {color: #000; }

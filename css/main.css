@@ -14,7 +14,7 @@
     /* Masthead */
     #jump {display: none; position: absolute; top: 10px; left: 10px;}
     #jump:focus {color: #000; }
-    #logo {background: url(../images/caturra-coffee-logo.webp) no-repeat center / cover; height: 75px; width: 193px; display: block; margin-left: 1px;}
+    #logo {height: 75px; width: 193px; display: block; margin-left: 1px;}
     header form {display: none;}
     header {padding: 30px 0;}
     header nav ul {list-style: none; padding: 0;}
@@ -32,15 +32,15 @@
     .views .content {background: var(--primary-color); padding: 40px 20px; height: 280px;}
     .views h1, .views p, .views a {color: var(--secondary-color); text-align: center;}
     .views p {margin-top: 9px; line-height: 1.8;}
-    .views a {margin: 29px auto 0; display: block; font-variant: small-caps; font-size: 22px;}
+    .views a {margin: 29px auto 0; display: block; font-variant: all-small-caps; font-size: 22px;}
 
     #hero-2 {background: url(../images/caturra-coffee-view-to-street.webp) no-repeat center / cover; min-height: 590px; width: auto;}
 
     .menu {margin: 62px 0 60px; position: relative;}
     .menu .line {position: absolute; top: 39px; border: 0px solid var(--primary-color); width: 100%; height: 1px; border-width: 1px 0 0; z-index: -1}
-    .menu h1 {font-size: 34.5px; color: #fff; background: #502712; padding: 18px 0 24px; font-variant: small-caps; text-align: center;}
+    .menu h1 {font-size: 34.5px; color: #fff; background: #502712; padding: 18px 0 24px; font-variant: all-small-caps; text-align: center;}
     .menu-items {margin-top: 21px;}
-    .menu h2 {font-size: 27px; color: #502712; margin: 15px 0 0; font-variant: small-caps;}
+    .menu h2 {font-size: 27px; color: #502712; margin: 15px 0 0; font-variant: all-small-caps;}
     .menu-items ul {list-style: none; padding: 0;}
     .menu-items li {margin-top: 15px;}
     .menu .container-xl {border-bottom: 1px solid var(--primary-color); padding-bottom: 60px;}
@@ -73,7 +73,7 @@
 
     header {padding-top: 12px;}
     #logo {width: 125px; height: 53px; margin: 18px 0 0 2px;}
-    .views {margin-bottom: 67px;}
+    .views {margin-bottom: 90px;}
     .views .content {height: auto; padding-bottom: 60px;}
     footer .col-sm-6:nth-child(n + 3) {margin-top: 30px;}
 }
@@ -105,5 +105,18 @@
     .menu {margin-bottom: -2px;}
     footer {margin-top: -2px; padding-bottom: 50px;}
     footer .row .col-sm-6:nth-child(n + 2) {margin-top: 30px;}
+}
+
+@media print {
+
+    a {color: #000;}
+    body {font-size: 15pt;}
+    h1 {font-size: 20pt;}
+    h2 {font-size: 17pt;}
+    #jump, header nav, header form, #hero-2, .menu .line {display: none;}
+
+    .views {margin-top: 40px;}
+
+    footer .row div {display: block; width:100%;}
 }
 

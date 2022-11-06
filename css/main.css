@@ -22,7 +22,7 @@
     header .left-nav li {margin-right: 30px;}
     header .right-nav li{margin-left: 30px;}
     header a {font-size: 16px; color: var(--primary-color);}
-    header a:focus {color: #000;}
+    header a:hover {color: #000;}
 
     main .bar {height: 20px; background: #502712;}
     #hero-1 {background: url(../images/caturra-coffee-hero-image.webp) no-repeat center / cover; min-height: 454px; width: auto;}

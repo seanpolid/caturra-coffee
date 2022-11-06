@@ -4,6 +4,7 @@
 
     body {font: 400 18px/1.3 'PT Sans', sans-serif; position: relative; margin: 0; padding: 0;}
     header, nav, main, section, aside, footer, div {box-sizing: border-box;}
+    footer abbr[title] {text-decoration: none;}
 
 }
 
@@ -113,8 +114,7 @@
     body, a {font-size: 15pt; color: #000;}
     h1 {font-size: 20pt;}
     h2 {font-size: 17pt;}
-    #jump, header nav, header form, #hero-2, .menu .line {display: none;}
-
+    #jump, header nav, header form, #hero-2, .menu .line, #chemex, .image-descr {display: none;}
     #logo {color: #000;}
     .views {margin-top: 40px;} 
     .menu {margin-top: 40px;}

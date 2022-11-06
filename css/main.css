@@ -102,5 +102,8 @@
 
 @media screen and (max-width: 576px) {
 
+    .menu {margin-bottom: -2px;}
+    footer {margin-top: -2px; padding-bottom: 50px;}
+    footer .row .col-sm-6:nth-child(n + 2) {margin-top: 30px;}
 }
 

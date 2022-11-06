@@ -75,7 +75,7 @@
 @media screen and (max-width: 992px) {
 
     header {padding-top: 12px;}
-    #logo {width: 125px; height: 53px; margin: 18px 0 0 2px;}
+    #logo {width: auto; height: 53px; margin: 18px 0 0 2px;}
     .views {margin-bottom: 90px;}
     .views .content {height: auto; padding-bottom: 60px;}
     footer .col-sm-6:nth-child(n + 3) {margin-top: 30px;}

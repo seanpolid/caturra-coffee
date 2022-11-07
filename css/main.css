@@ -14,7 +14,7 @@
     a:focus {outline: 2px solid var(--primary-color); outline-offset: 3px;}
     .hero {width: auto;}
     .image-descr {font-size: 0; width: 0; height: 0;}
-    #jump, #logo, header nav li, .views a, #chemex img, .icon {display: block;}
+    #jump, img, header nav li, .views a, #chemex, .icon {display: block;}
     .views a, footer .icon {outline-color: var(--secondary-color);}
     .views a, .menu h1, .menu h2 {font-variant: all-small-caps;}
 
@@ -57,7 +57,8 @@
     .menu .container-xl {border-bottom: 1px solid var(--primary-color); padding-bottom: 60px;}
 
     /* Second hero */
-    #chemex img {min-height: 461px; max-width: 709px; margin: 0 auto;}
+    #chemex {width: fit-content; margin: 0 auto;}
+    #chemex img {min-height: 461px; max-width: 709px; }
 
     /* Footer */
     footer {padding: 50px 0 35px; background: var(--primary-color); margin-top: 59px; color: var(--secondary-color); font-size: 16px;}

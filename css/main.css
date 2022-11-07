@@ -12,7 +12,7 @@
     /* General */
     :root {--primary-color: #502712; --secondary-color: #fff; --accent-color: #000;}
     a:focus {outline: 2px solid var(--primary-color); outline-offset: 3px;}
-    .hero {background: no-repeat center / cover; width: auto;}
+    .hero {width: auto;}
     .image-descr {font-size: 0; width: 0; height: 0;}
     #jump, #logo, header nav li, .views a, #chemex img, .icon {display: block;}
     .views a, footer .icon {outline-color: var(--secondary-color);}
@@ -33,7 +33,7 @@
 
     /* First hero */
     main .bar {height: 20px; background: var(--primary-color);}
-    #hero-1 {background: url(../images/caturra-coffee-hero-image.webp); min-height: 454px;}
+    #hero-1 {background: url(../images/caturra-coffee-hero-image.webp) no-repeat center / cover; min-height: 454px;}
 
     /* Views */
     .views {margin: 60px auto;}
@@ -44,7 +44,7 @@
     .views a {margin: 29px auto 0; font-size: 22px;}
 
     /* Second hero */
-    #hero-2 {background: url(../images/caturra-coffee-view-to-street.webp); min-height: 590px;}
+    #hero-2 {background: url(../images/caturra-coffee-view-to-street.webp) no-repeat center / cover; min-height: 590px;}
 
     /* New Menu items */
     .menu {margin: 62px 0 60px; position: relative;}

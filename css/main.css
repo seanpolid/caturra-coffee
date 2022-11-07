@@ -12,11 +12,12 @@
     /* General */
     :root {--primary-color: #502712; --secondary-color: #fff; --accent-color: #000;}
     a:focus {outline: 2px solid var(--primary-color); outline-offset: 3px;}
+    .hero {background: no-repeat center / cover; width: auto;}
     .image-descr {font-size: 0; width: 0; height: 0;}
+    #jump, #logo, header nav li, .views a {display: block;}
     .views a, footer .icon {outline-color: var(--secondary-color);}
 
     /* Masthead */
-    #jump, #logo, header nav li {display: block;}
     #jump {position: absolute; top: 10px; left: 10px; font-size: 0;}
     #jump:focus {color: var(--accent-color); font-size: inherit;}
     #logo {height: 75px; width: 193px; margin-left: 1px;}
@@ -30,19 +31,19 @@
     header a:hover {color: var(--accent-color);}
 
     /* First hero */
-    main .bar {height: 20px; background: #502712;}
-    #hero-1 {background: url(../images/caturra-coffee-hero-image.webp) no-repeat center / cover; min-height: 454px; width: auto;}
+    main .bar {height: 20px; background: var(--primary-color);}
+    #hero-1 {background: url(../images/caturra-coffee-hero-image.webp); min-height: 454px;}
 
     /* Views */
     .views {margin: 60px auto;}
     .views h1 {font-weight: 700; font-size: 24px; line-height: 1.3;}
-    .views .content {background: var(--primary-color); padding: 40px 20px; height: 280px;}
     .views h1, .views p, .views a {color: var(--secondary-color); text-align: center;}
+    .views .content {background: var(--primary-color); padding: 40px 20px; height: 280px;}
     .views p {margin-top: 9px; line-height: 1.8;}
-    .views a {margin: 29px auto 0; display: block; font-variant: all-small-caps; font-size: 22px;}
+    .views a {margin: 29px auto 0; font-variant: all-small-caps; font-size: 22px;}
 
     /* Second hero */
-    #hero-2 {background: url(../images/caturra-coffee-view-to-street.webp) no-repeat center / cover; min-height: 590px; width: auto;}
+    #hero-2 {background: url(../images/caturra-coffee-view-to-street.webp); min-height: 590px;}
 
     /* New Menu items */
     .menu {margin: 62px 0 60px; position: relative;}

@@ -16,7 +16,7 @@
     .image-descr {font-size: 0; width: 0; height: 0;}
     #jump, img, header nav li, .views a, #chemex, .icon {display: block;}
     .views a, footer .icon {outline-color: var(--secondary-color);}
-    .views a, .menu h1, .menu h2 {font-variant: all-small-caps;}
+    .views a, .menu h1, .menu h2 {text-transform: uppercase;}
 
     /* Masthead */
     #jump {position: absolute; top: 10px; left: 10px; font-size: 0;}
@@ -41,7 +41,7 @@
     .views h1, .views p, .views a {color: var(--secondary-color); text-align: center;}
     .views .content {background: var(--primary-color); padding: 40px 20px; height: 280px;}
     .views p {margin-top: 9px; line-height: 1.8;}
-    .views a {margin: 29px auto 0; font-size: 22px;}
+    .views a {margin: 35px auto 0; font-size: 18px;}
 
     /* Second hero */
     #hero-2 {background: url(../images/caturra-coffee-view-to-street.webp) no-repeat center / cover; min-height: 590px;}

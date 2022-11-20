@@ -77,7 +77,9 @@
 
     /* Masthead */
     header .left-nav li {margin-right: 20px;}
+    header .left-nav ul li:last-child {margin-right: 0;}
     header .right-nav li {margin-left: 20px;}
+    header .right-nav ul li:first-child {margin-left: 0;}
 
 }
 
@@ -96,7 +98,7 @@
 
 }
 
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 768px) {
 
     /* Masthead */
     header nav {display: none;}
